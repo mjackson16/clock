@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body {
+    background-image: url("/images/snow2.jpg");
+    background-size: cover;
+    background-position: top center;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Righteous', cursive;
+    margin: 0;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+p {
+    display: flex;
+    margin: 0;
+    font-size: 3rem;
+}
+
+#clock-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#hour {
+    display: flex;
+    margin: 0 5px;
+    font-size: 3rem;
+}
+
+#minutes {
+    display: flex;
+    margin: 0 5px;
+    font-size: 3rem;
+}
+
+#seconds {
+    display: flex;
+    margin: 0 5px;
+    font-size: 3rem;
+}
