@@ -6,25 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
     <title>Clock</title>
+    <script src="./scripts/script.js" defer></script>
 </head>
 <body>
     <h1>Time</h1>
 
     <div id="clock-container">
-        <div id="hour">
-            <div class="firstDigit">0</div>
-            <div class="secondDigit">1</div>
+        <div id="hour-c">
+            <div id="hour"></div>
         </div>
         <p>:</p>
-        <div id="minutes">
-            <div class="firstDigit">3</div>
-            <div class="secondDigit">3</div>
+        <div id="minute-c">
+            <div id="minute"></div>
         </div>
         <p>:</p>
-        <div id="seconds">
-            <div class="firstDigit">1</div>
-            <div class="secondDigit">5</div>
+        <div id="second-c">
+            <div id='second'></div>
         </div>
+        <p id="period"></p>
     </div> 
 </body>
 </html>

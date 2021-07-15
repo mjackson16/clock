@@ -1,24 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 body {
-    background-image: url("/images/snow2.jpg");
+    background-image: url("/images/road.jpg");
     background-size: cover;
-    background-position: top center;
-    min-height: 90vh;
+    background-position: center center;
+    min-height: 125vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: 'Righteous', cursive;
     margin: 0;
+    overflow: hidden;
 }
 
+#clock-container {
+    margin-left: 20px;
+}
 h1 {
     font-size: 5rem;
 }
 
 p {
     display: flex;
-    margin: 0;
+    margin: -5px 0 0;
     font-size: 3rem;
+}
+
+#period {
+    margin-left: 20px;
+    margin-top: 0;
 }
 
 #clock-container {
@@ -26,19 +35,19 @@ p {
     flex-direction: row;
 }
 
-#hour {
+#hour-c {
     display: flex;
     margin: 0 5px;
     font-size: 3rem;
 }
 
-#minutes {
+#minute-c {
     display: flex;
     margin: 0 5px;
     font-size: 3rem;
 }
 
-#seconds {
+#second-c {
     display: flex;
     margin: 0 5px;
     font-size: 3rem;
